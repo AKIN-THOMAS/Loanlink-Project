@@ -1,0 +1,22 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "loanlink contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/deploy/read.js",
+    "deploy": "node ./src/deploy/deploy.js",
+    "generateByteCode": "node ./src/deploy/getByteCode.js"
+  },
+  "author": "ayoseun",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/hedera-local": "^2.4.5",
+    "@hashgraph/sdk": "^2.26.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.9.2",
+    "dotenv": "^16.3.1",
+    "solc": "^0.8.20"
+  }
+}
